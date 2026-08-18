@@ -605,22 +605,41 @@ class Narrador_De_Post {
                     <div style="background: #e7f3fe; border-left: 4px solid #0073aa; padding: 18px; border-radius: 4px; margin-bottom: 20px;">
                         <h3 style="margin-top: 0; display: flex; align-items: center; gap: 6px;">
                             <span class="dashicons dashicons-book"></span>
-                            <?php esc_html_e( 'Manual de Obtenção de APIs', 'narrador-de-post' ); ?>
+                            <?php esc_html_e( 'Guia de APIs & Custo-Benefício', 'narrador-de-post' ); ?>
                         </h3>
                         <p style="font-size: 13px; line-height: 1.5;">
-                            <?php esc_html_e( 'Se você deseja usar o modo IA com vozes humanas ultrarrealistas, siga os passos abaixo para obter sua chave privada:', 'narrador-de-post' ); ?>
+                            <?php esc_html_e( 'Escolha a melhor opção de voz e tecnologia para o seu projeto:', 'narrador-de-post' ); ?>
                         </p>
                         
-                        <h4 style="margin-bottom: 4px; font-size: 13px;">🔹 OpenAI API:</h4>
-                        <ol style="font-size: 12px; line-height: 1.6; padding-left: 18px; margin-top: 4px;">
-                            <li>Acesse <a href="https://platform.openai.com/api-keys" target="_blank" rel="noopener noreferrer">platform.openai.com/api-keys</a>.</li>
-                            <li>Crie uma conta ou faça login.</li>
-                            <li>Clique em <strong>"Create new secret key"</strong> e copie a chave gerada (iniciada por <code>sk-</code>).</li>
-                            <li>Cole a chave no campo <strong>OpenAI API Key</strong> acima e salve.</li>
-                        </ol>
+                        <div style="background: #fff; border: 1px solid #c3c4c7; border-radius: 4px; padding: 10px; margin-bottom: 12px;">
+                            <h4 style="margin: 0 0 4px 0; font-size: 13px; color: #135e96;">🥇 Modo Gratuito (Navegador)</h4>
+                            <p style="font-size: 12px; margin: 0; color: #50575e;">
+                                <strong>Custo: R$ 0,00</strong>. Utiliza as vozes neurais instaladas no dispositivo do visitante. Sem necessidade de chaves de API.
+                            </p>
+                        </div>
 
-                        <div style="background: #fff; padding: 10px; border-radius: 4px; border: 1px solid #c3c4c7; font-size: 11px; color: #50575e; margin-top: 10px;">
-                            💡 <strong>Economia:</strong> O plugin salva o áudio em cache local no WordPress (`wp-content/uploads/`). A API é chamada <strong>apenas 1 vez</strong> por postagem!
+                        <div style="background: #fff; border: 1px solid #c3c4c7; border-radius: 4px; padding: 10px; margin-bottom: 12px;">
+                            <h4 style="margin: 0 0 4px 0; font-size: 13px; color: #135e96;">🔹 OpenAI TTS (Recomendado para IA)</h4>
+                            <p style="font-size: 12px; margin: 0 0 6px 0; color: #50575e;">
+                                <strong>Custo: ~$0,015 / 1k caracteres</strong> (~$0,05 por post médio). Qualidade de estúdio/podcast.
+                            </p>
+                            <ol style="font-size: 11px; line-height: 1.5; padding-left: 16px; margin: 0;">
+                                <li>Acesse <a href="https://platform.openai.com/api-keys" target="_blank" rel="noopener noreferrer">platform.openai.com/api-keys</a>.</li>
+                                <li>Crie uma chave privada (<code>sk-proj-...</code>) e cole ao lado.</li>
+                            </ol>
+                        </div>
+
+                        <div style="background: #fff; border: 1px solid #c3c4c7; border-radius: 4px; padding: 10px; margin-bottom: 12px;">
+                            <h4 style="margin: 0 0 4px 0; font-size: 13px; color: #135e96;">🎁 Outras APIs com Cotas Gratuitas:</h4>
+                            <ul style="font-size: 11px; line-height: 1.5; padding-left: 16px; margin: 0;">
+                                <li><strong>Google Cloud TTS:</strong> 1 milhão de caracteres/mês grátis (<a href="https://cloud.google.com/text-to-speech" target="_blank" rel="noopener noreferrer">Acessar</a>).</li>
+                                <li><strong>Microsoft Azure Speech:</strong> 500 mil caracteres/mês grátis (<a href="https://azure.microsoft.com/products/ai-services/ai-speech" target="_blank" rel="noopener noreferrer">Acessar</a>).</li>
+                                <li><strong>ElevenLabs:</strong> 10 mil caracteres/mês grátis (<a href="https://elevenlabs.io" target="_blank" rel="noopener noreferrer">Acessar</a>).</li>
+                            </ul>
+                        </div>
+
+                        <div style="background: #f0f6fc; padding: 8px 10px; border-radius: 4px; font-size: 11px; color: #24292f;">
+                            💡 <strong>Cache Inteligente:</strong> O áudio MP3 é salvo no WordPress e a API só é chamada <strong>1 única vez</strong> por postagem!
                         </div>
                     </div>
 

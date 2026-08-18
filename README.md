@@ -37,6 +37,20 @@ Oferecer uma versão em áudio dos seus artigos aumenta drasticamente o tempo de
 
 ---
 
+### 💰 Comparativo de APIs & Custo-Benefício
+
+Como o plugin salva o arquivo `.mp3` em cache local no WordPress, o áudio é sintetizado **uma única vez por post** (e não a cada visita do usuário), garantindo custo baixíssimo:
+
+| Provedor / API | Camada Gratuita (Free Tier) | Custo Estimado | Qualidade (PT-BR) | Onde Obter a Chave |
+| :--- | :--- | :--- | :--- | :--- |
+| 🥇 **Modo Gratuito (Navegador)** | **Ilimitado (100% Grátis)** | **R$ 0,00** | ⭐⭐⭐⭐⭐ (Vozes Naturais) | *Nativa no plugin (Sem API)* |
+| 🥈 **Google Cloud TTS** | **1.000.000 caracteres/mês GRÁTIS** | ~$0,016 / 1k chars | ⭐⭐⭐⭐⭐ (Neural2 / WaveNet) | [Google Cloud Console](https://cloud.google.com/text-to-speech) |
+| 🥉 **Microsoft Azure Speech** | **500.000 caracteres/mês GRÁTIS** (Plano F0) | ~$0,016 / 1k chars | ⭐⭐⭐⭐⭐ (Francisca / Antonio) | [Azure Portal](https://azure.microsoft.com/products/ai-services/ai-speech) |
+| 🔹 **OpenAI Audio TTS** | Créditos iniciais | ~$0,015 / 1k chars (~$0,05/post) | ⭐⭐⭐⭐⭐ (Nova / Alloy / Echo) | [OpenAI Platform](https://platform.openai.com/api-keys) |
+| 👑 **ElevenLabs** | **10.000 caracteres/mês GRÁTIS** | Planos a partir de $5/mês | ⭐⭐⭐⭐⭐ (Estúdio / Cinema) | [ElevenLabs.io](https://elevenlabs.io) |
+
+---
+
 ### 🔑 Manual: Como Obter sua Chave de API OpenAI (Opcional)
 
 Se você optar pelo **Modo IA**, siga o passo a passo para gerar sua chave:
