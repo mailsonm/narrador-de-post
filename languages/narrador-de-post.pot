@@ -1,0 +1,142 @@
+# Copyright (C) 2026 Mailson Maia Alves
+# This file is distributed under the same license as the Narrador de Post plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Narrador de Post 2.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mailsonm/narrador-de-post/issues\n"
+"POT-Creation-Date: 2026-08-18 10:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Mailson Maia Alves <59203034+mailsonm@users.noreply.github.com>\n"
+"Language-Team: Portuguese (Brazil)\n"
+"Language: pt_BR\n"
+
+#: narrador-de-post.php:60 narrador-de-post.php:61
+msgid "Narrador de Post"
+msgstr ""
+
+#: narrador-de-post.php:87 narrador-de-post.php:127 narrador-de-post.php:267
+msgid "Ouvir este artigo"
+msgstr ""
+
+#: narrador-de-post.php:88
+msgid "Pausar"
+msgstr ""
+
+#: narrador-de-post.php:89
+msgid "Continuar"
+msgstr ""
+
+#: narrador-de-post.php:90
+msgid "Parar"
+msgstr ""
+
+#: narrador-de-post.php:91
+msgid "minutos de áudio"
+msgstr ""
+
+#: narrador-de-post.php:92
+msgid "Seu navegador não possui suporte à síntese de voz."
+msgstr ""
+
+#: narrador-de-post.php:395
+msgid "1. Modo de Operação do Player"
+msgstr ""
+
+#: narrador-de-post.php:398
+msgid "Selecione a Tecnologia:"
+msgstr ""
+
+#: narrador-de-post.php:403
+msgid "Modo Gratuito (Vozes Neurais do Navegador)"
+msgstr ""
+
+#: narrador-de-post.php:404
+msgid "100% gratuito e sem custos de API. Utiliza sintetizadores neurais de alta qualidade nativos do dispositivo do usuário (Edge/Chrome/Safari)."
+msgstr ""
+
+#: narrador-de-post.php:408
+msgid "Modo IA de Alta Fidelidade (OpenAI TTS - BYOK)"
+msgstr ""
+
+#: narrador-de-post.php:409
+msgid "Áudio com qualidade de podcast profissional. O áudio é sintetizado via sua chave OpenAI e salvo em MP3 no WordPress."
+msgstr ""
+
+#: narrador-de-post.php:416
+msgid "2. Configurações de Voz & Áudio"
+msgstr ""
+
+#: narrador-de-post.php:419
+msgid "Texto do Botão:"
+msgstr ""
+
+#: narrador-de-post.php:425
+msgid "Idioma Principal:"
+msgstr ""
+
+#: narrador-de-post.php:436
+msgid "Velocidade Padrão:"
+msgstr ""
+
+#: narrador-de-post.php:448
+msgid "Tempo Estimado:"
+msgstr ""
+
+#: narrador-de-post.php:452
+msgid "Exibir badge com tempo estimado de áudio (ex: ⏱️ ~3 min)"
+msgstr ""
+
+#: narrador-de-post.php:458
+msgid "3. Chave de API OpenAI (Opcional para Modo IA)"
+msgstr ""
+
+#: narrador-de-post.php:461
+msgid "OpenAI API Key:"
+msgstr ""
+
+#: narrador-de-post.php:464
+msgid "Sua chave privada da OpenAI. O áudio gerado fica armazenado no seu WordPress e não consome API em novas visitas."
+msgstr ""
+
+#: narrador-de-post.php:468
+msgid "Voz da OpenAI:"
+msgstr ""
+
+#: narrador-de-post.php:482
+msgid "4. Exibição e Tipos de Postagem"
+msgstr ""
+
+#: narrador-de-post.php:485
+msgid "Posicionamento:"
+msgstr ""
+
+#: narrador-de-post.php:488
+msgid "Topo do Post (Início do Conteúdo - Recomendado)"
+msgstr ""
+
+#: narrador-de-post.php:489
+msgid "Final do Post (Rodapé do Conteúdo)"
+msgstr ""
+
+#: narrador-de-post.php:490
+msgid "Manual (Apenas via Shortcode [narrador_de_post])"
+msgstr ""
+
+#: narrador-de-post.php:495
+msgid "Tipos de Post:"
+msgstr ""
+
+#: narrador-de-post.php:514
+msgid "Excluir Posts por ID:"
+msgstr ""
+
+#: narrador-de-post.php:517
+msgid "IDs de post separados por vírgula que não devem exibir o narrador."
+msgstr ""
+
+#: narrador-de-post.php:522
+msgid "Salvar Configurações"
+msgstr ""

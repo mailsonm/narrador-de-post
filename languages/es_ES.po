@@ -1,0 +1,142 @@
+# Copyright (C) 2026 Mailson Maia Alves
+# Narrador de Post - Traducción en Español
+msgid ""
+msgstr ""
+"Project-Id-Version: Narrador de Post 2.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mailsonm/narrador-de-post/issues\n"
+"POT-Creation-Date: 2026-08-18 10:00:00+00:00\n"
+"PO-Revision-Date: 2026-08-18 10:00:00+00:00\n"
+"Last-Translator: Mailson Maia Alves <59203034+mailsonm@users.noreply.github.com>\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: narrador-de-post.php:60 narrador-de-post.php:61
+msgid "Narrador de Post"
+msgstr "Narrador de Entradas"
+
+#: narrador-de-post.php:87 narrador-de-post.php:127 narrador-de-post.php:267
+msgid "Ouvir este artigo"
+msgstr "Escuchar este artículo"
+
+#: narrador-de-post.php:88
+msgid "Pausar"
+msgstr "Pausar"
+
+#: narrador-de-post.php:89
+msgid "Continuar"
+msgstr "Reanudar"
+
+#: narrador-de-post.php:90
+msgid "Parar"
+msgstr "Detener"
+
+#: narrador-de-post.php:91
+msgid "minutos de áudio"
+msgstr "minutos de audio"
+
+#: narrador-de-post.php:92
+msgid "Seu navegador não possui suporte à síntese de voz."
+msgstr "Su navegador no admite la síntesis de voz."
+
+#: narrador-de-post.php:395
+msgid "1. Modo de Operação do Player"
+msgstr "1. Modo de Operación del Reproductor"
+
+#: narrador-de-post.php:398
+msgid "Selecione a Tecnologia:"
+msgstr "Seleccione la Tecnología:"
+
+#: narrador-de-post.php:403
+msgid "Modo Gratuito (Vozes Neurais do Navegador)"
+msgstr "Modo Gratuito (Voces Neuronales del Navegador)"
+
+#: narrador-de-post.php:404
+msgid "100% gratuito e sem custos de API. Utiliza sintetizadores neurais de alta qualidade nativos do dispositivo do usuário (Edge/Chrome/Safari)."
+msgstr "100% gratuito y sin costes de API. Utiliza sintetizadores neuronales nativos de alta calidad (Edge/Chrome/Safari)."
+
+#: narrador-de-post.php:408
+msgid "Modo IA de Alta Fidelidade (OpenAI TTS - BYOK)"
+msgstr "Modo IA de Alta Fidelidad (OpenAI TTS - BYOK)"
+
+#: narrador-de-post.php:409
+msgid "Áudio com qualidade de podcast profissional. O áudio é sintetizado via sua chave OpenAI e salvo em MP3 no WordPress."
+msgstr "Audio con calidad de podcast profesional. Se sintetiza con su clave de OpenAI y se guarda en MP3 en WordPress."
+
+#: narrador-de-post.php:416
+msgid "2. Configurações de Voz & Áudio"
+msgstr "2. Ajustes de Voz y Audio"
+
+#: narrador-de-post.php:419
+msgid "Texto do Botão:"
+msgstr "Texto del Botón:"
+
+#: narrador-de-post.php:425
+msgid "Idioma Principal:"
+msgstr "Idioma Principal:"
+
+#: narrador-de-post.php:436
+msgid "Velocidade Padrão:"
+msgstr "Velocidad Predeterminada:"
+
+#: narrador-de-post.php:448
+msgid "Tempo Estimado:"
+msgstr "Tiempo Estimado:"
+
+#: narrador-de-post.php:452
+msgid "Exibir badge com tempo estimado de áudio (ex: ⏱️ ~3 min)"
+msgstr "Mostrar insignia con tiempo estimado de audio (ej: ⏱️ ~3 min)"
+
+#: narrador-de-post.php:458
+msgid "3. Chave de API OpenAI (Opcional para Modo IA)"
+msgstr "3. Clave de API OpenAI (Opcional para Modo IA)"
+
+#: narrador-de-post.php:461
+msgid "OpenAI API Key:"
+msgstr "Clave de API OpenAI:"
+
+#: narrador-de-post.php:464
+msgid "Sua chave privada da OpenAI. O áudio gerado fica armazenado no seu WordPress e não consome API em novas visitas."
+msgstr "Su clave privada de OpenAI. El audio generado se guarda en WordPress y no consume API en visitas posteriores."
+
+#: narrador-de-post.php:468
+msgid "Voz da OpenAI:"
+msgstr "Voz de OpenAI:"
+
+#: narrador-de-post.php:482
+msgid "4. Exibição e Tipos de Postagem"
+msgstr "4. Visualización y Tipos de Publicación"
+
+#: narrador-de-post.php:485
+msgid "Posicionamento:"
+msgstr "Posicionamiento:"
+
+#: narrador-de-post.php:488
+msgid "Topo do Post (Início do Conteúdo - Recomendado)"
+msgstr "Inicio del Post (Recomendado)"
+
+#: narrador-de-post.php:489
+msgid "Final do Post (Rodapé do Conteúdo)"
+msgstr "Pie del Post (Final del Contenido)"
+
+#: narrador-de-post.php:490
+msgid "Manual (Apenas via Shortcode [narrador_de_post])"
+msgstr "Manual (Solo mediante Shortcode [narrador_de_post])"
+
+#: narrador-de-post.php:495
+msgid "Tipos de Post:"
+msgstr "Tipos de Publicación:"
+
+#: narrador-de-post.php:514
+msgid "Excluir Posts por ID:"
+msgstr "Excluir Publicaciones por ID:"
+
+#: narrador-de-post.php:517
+msgid "IDs de post separados por vírgula que não devem exibir o narrador."
+msgstr "IDs separados por comas que no deben mostrar el narrador."
+
+#: narrador-de-post.php:522
+msgid "Salvar Configurações"
+msgstr "Guardar Ajustes"

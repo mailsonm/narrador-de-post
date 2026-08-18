@@ -1,0 +1,38 @@
+# WordPress Ignore Rules
+# https://github.com/github/gitignore/blob/main/WordPress.gitignore
+
+# Core & Config
+/wp-admin/
+/wp-includes/
+/wp-content/uploads/
+wp-config.php
+*.log
+/.htaccess
+
+# Editor & OS temporary / swap files
+*.swp
+.*.swp
+*.swo
+.*.swo
+*~
+*.bak
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDEs and tooling
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.kate-swp
+.*.kate-swp
+bkp/
+/bkp/
+
+# Testing & Dependencies
+/vendor/
+composer.lock
+.phpunit.result.cache
+/coverage/
